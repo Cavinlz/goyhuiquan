@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+.yhg-card-sample{
+	border-radius:15px;
+	background-color:#fff;border-radius:15px !important;
+}
+.yhg-card-sample img{
+	width:45px;
+	height:45px;
+	padding:2px;
+	border-radius:15px;
+	border:1px solid #ccc;
+	margin-top:-25px;
+	background:#fff;
+	
+}
+.cardbg{
+	
+}
+.cardbg .box .box-content{
+	background-color:transparent;
+	padding-bottom:90px;
+	padding-top:80px;
+
+	
+}
+.cardbg .box .box-content button{
+	border-radius:5px !important;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.yhg-member img{
+	width:60px;
+	height:60px;
+	padding:2px;
+	border-radius:15px;
+	border:1px solid #ccc;
+	background:#fff;
+	
+}
+

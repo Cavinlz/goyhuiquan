@@ -1,0 +1,12 @@
+<?php
+define('CARD_NOSHOW_FLAG', 0);
+define('CARD_SHOW_FLAG', 1);
+define('CARD_DELETE_FLAG', 2);
+
+
+define('BRAND_AUTHORISED_FLAG' , 1);
+
+
+
+define('DATE_FIX_RANGE','DATE_TYPE_FIX_TIME_RANGE');
+define('DATE_FIX_TERM','DATE_TYPE_FIX_TERM');

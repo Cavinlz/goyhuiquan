@@ -1,0 +1,7 @@
+.svn/
+.settings/
+.project
+.buildpath
+log/
+temp_upload/
+*.txt

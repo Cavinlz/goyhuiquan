@@ -1,0 +1,399 @@
+*{
+	margin:0px;
+}
+
+body{
+	font-size:12px;
+	font-family:Microsoft YaHei;
+	background:#efefef;
+}
+
+.yh-container{
+	max-width:768px;
+	margin:0px auto;
+	background:#fff;
+	
+}
+
+/** ** ** ** ** ** **
+ * General Style **
+ * 
+ */
+
+.yh-m-color-bg{
+	background: #FED11E;
+}
+
+
+/** ** ** ** ** ** **
+ ** Header Style **
+ * 
+ */
+
+.yh-header{
+	font-size:1.3em;
+	text-align:center;
+	padding:8px 0px;
+	max-width:768px;
+	margin:0px auto;
+	min-height:35px;
+}
+
+.yhg-nav-btn{
+	position:absolute;
+	right:5px;
+	top:4px;
+}
+.yhg-nav-btn button{
+	background:#FED11E;
+	border:0px;
+}
+.yhg-nav-btn .dropdown-menu{
+	width:120px;
+	left:-120px;
+	padding:3px 10px;
+}
+
+.yhg-nav-btn .dropdown-toggle.btn-default{
+	background:none;
+}
+/** ** ** ** ** ** **
+ ** Home page Style **
+ * 
+ */
+.yh-category{
+	padding:10px 0px;
+
+}
+
+.yh-card-list{
+	padding:0px;
+	padding-left:5px;
+	background:#fff;
+	margin-top:10px;
+	position:relative;
+	padding-bottom:2px;
+}
+hr{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.yh-card-list div[class^=col]{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.yhg-float-img{
+	width:21%;
+	margin-top:3px;
+}
+.yhg-float-cardinfo{
+	width:41%;
+	padding-left:10px !important;
+}
+.yhg-float-timer{
+	width:22%;
+}
+.yhg-float-timer img{
+	
+}
+.yhg-float-like{
+	width:15%;
+	padding-bottom:10px;
+	
+	position:relative;
+}
+.yhg-likebtn,.yhg-likebtn:active,.yhg-likebtn:hover{
+	background:#FED11E;
+	border:0px;
+	font-size:1em;
+	padding:0px;
+	color:#fff;
+}
+button[id^=unlike-],button[id^=unlike-]:active,button[id^=unlike-]:hover{
+	color:#f15366
+}
+
+.yhg-heart{
+	font-size:2.5em;
+	color:#f15366;
+	text-align:center;
+	display:block;
+}
+.yhg-heart-counter{
+	display:block;
+	text-align:center;
+
+	
+}
+.yhg-likebtn .heart-full{
+	color:red;
+}
+
+
+.yh-card-list .thumbnail{
+	margin-bottom:0px;
+}
+.yh-card-list blockquote{
+	margin-top:5px;
+	padding:0px 10px;
+	margin-bottom:5px;
+	font-size:0.9em;
+}
+.yh-card-list blockquote p{
+line-height:15px;
+	margin:0px;
+}
+
+.yh-cards{
+	padding-top:1px;
+	background:#efefef;
+}
+
+.yh-instruction{
+	position:relative;
+	padding-left:0px;
+	width:100%;
+	bottom:0px;
+}
+
+.yh-instruction p{
+	font-size:0.9em;
+	color:#999999;
+	line-height:5px;
+}
+
+.yh-actions{
+	position:relative;
+}
+.yh-counter{
+	display:block;
+	line-height:20px;
+	background:red;
+	color:#fff;
+	text-align:center;
+	border-bottom-left-radius: 10px;
+}
+.yh-counter font{
+	font-size:0.6em;
+}
+.yh-quantity{
+	display:block;
+	text-align:center;
+	line-height:25px;
+	font-size:1.3em;
+}
+.yh-userfaces{
+	padding-right:10px;
+}
+.yh-userfaces img{
+	float:right;
+	padding:2px;
+	height:28px;
+	width:28px;
+	margin-right:2px;
+}
+
+.yh-btn-100{
+	position:absolute;
+	right:5px;
+	bottom:0px;
+	width:25%;
+	background:#FED11E;
+	color:#fff;
+}
+.yh-likes{
+	min-height:100px;
+	padding-right:0px;
+}
+
+.yh-filter button{
+	border:0px;
+}
+.yh-alert{
+	margin-bottom:5px;
+	padding:8px 15px;
+	border-radius:0px;
+	border-right:0px;
+	border-left:0px;
+}
+
+
+.footer{
+	background:#fff;
+	text-align:center;
+	font-size:12px;
+	padding:10px;
+	padding-bottom:2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.right {
+	width:20px;
+	float:right;
+	text-align:right;
+	line-height:60px
+}
+
+
+table {
+	cellpadding:0;
+	cellspacing:0;
+	border:0;
+}
+#box {
+	width:10em;
+	padding:15px;
+	font-size:1em;
+}
+#box2 {
+	font-size:4vw;
+}
+#hint {
+	font-size:2vw;
+}
+#hint2 {
+	font-size:2vw;
+	color:gray;
+}
+.coupon_menu {
+	width:80px;
+	height:60px;
+}
+.coupon_menu_title {
+	font-size:0.8em;
+}
+.opacity_bg_box {
+	background:rgba(0,0,0,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);
+	padding:8px;
+	top:20px;
+}
+.opacity_in_box {
+	background:white;
+	font-size:2vw;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:10px;
+}
+.abc {
+	height:300px;
+	border:1px solid #000;
+	margin:0 auto
+}
+@media screen and (min-width:1201px) {
+	.abc {
+	font-size:60px
+}
+}/* css注释：设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */
+
+        @media screen and (max-width:1200px) {
+	.abc {
+	font-size:60px
+}
+}/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */
+
+        @media screen and (max-width:901px) {
+	.abc {
+	font-size:30px
+}
+}/* 设置了浏览器宽度不大于901px时 abc 显示200px宽度 */
+
+        @media screen and (max-width:900px) {
+	.font_text_lager {
+	font-size:20px;
+}
+.font_text_normal {
+	font-size:15px;
+}
+.font_text_small {
+	font-size:10px;
+}
+.coupon_menu {
+	width:60px;
+	height:48px;
+}
+.coupon_menu_title {
+	font-size:14px;
+}
+.bottom_div_hint {
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	background-color:#F1F2F4;
+	font-size:14px;
+}
+.bottom_div_submit {
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	background-color:#FED11E;
+	font-size:14px;
+}
+button {
+	font-size:12px;
+}
+.discount_num {
+	
+}
+
+.discount_hint {
+	font-size:9px;
+}
+.user_head_icon {
+	width:40px;
+	height:40px;
+	border-radius:40px;
+	border:1px solid #ccc;
+	padding:1px;
+}
+button.yhg-bottom-btn,button.yhg-bottom-btn:active,button.yhg-bottom-btn:hover{
+	background:#FED11E;
+	border:0px;
+}
+.yhg-bottom-input{
+	border:0px;
+	
+}
+.yhg-cardtitle{
+	padding-bottom:10px;
+	min-height:70px;
+}
+.yhg-cardtitle span[class^=discount_num]{
+	position:absolute;
+	left:0px;
+	top:-10px;
+	display:block;
+	font-size:2.2em;
+	color:#E7885A;
+	font-weight:bold;
+}
+.yhg-cardtitle span[class^=discount_title]{
+	padding-right:5px;
+	display:block;
+	font-size:0.8em;
+}
+.yhg-cardtitle small.yhg-sub-title{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	min-height:25px;
+	display:block;
+	font-size:0.6em;
+}
+span.discount_title_1{
+	padding-left:18%;
+}
+span.discount_title_10{
+	padding-left:33%;
+}
+span.discount_title_100{
+	padding-left:50%;
+}
